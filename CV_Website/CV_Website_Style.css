@@ -1,0 +1,74 @@
+body
+{
+    min-height: 125vh;  /* vh = viewport height */
+    background-image: linear-gradient(transparent, rgb(12.2, 17.6, 45.9) 55%), url(Images/bgPanda.png);   /*permet d'appliquer un dégradé à une image de background vers une couleur transparante*/
+    background-repeat: no-repeat;
+    background-color: rgb(12.2, 17.6, 45.9);
+}
+
+h1
+{
+    color:skyblue;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+a:link
+{
+    color: aquamarine;
+}
+
+a:hover
+{
+    color: mediumturquoise;
+}
+
+a:visited
+{
+    color: fuchsia;
+}
+
+/* //////////////////////////// Banner Zone ////////////////////////// */
+
+.banner
+{
+    position: absolute;
+    z-index: 5;
+    left: 100px;
+    top: 250px;
+}
+
+.banner .social-networks
+{
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+
+.banner .social-networks a + a  /* a + a  applique le style en chaine à tous les éléments du même type qui suivent. Ici, il applique une marge de 35 px entre chaque a */
+{
+    margin-left: 35px;
+}
+
+/* ////////// Biography //////////////////   */
+
+.about-me
+{
+    position: absolute;
+    z-index: 5;
+    left: 480px;
+    top: 650px;
+    padding: 50px ;
+    border: thick double white;
+}
+
+.my-cv
+{
+    position: absolute;
+    z-index: 5;
+    left: 300px;
+    top: 1250px;
+}
