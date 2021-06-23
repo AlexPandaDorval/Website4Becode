@@ -31,44 +31,6 @@ a:visited
     color: fuchsia;
 }
 
-/* //////////////////////////// Banner Zone ////////////////////////// */
-/*
-.banner
-{
-    position: absolute;
-    z-index: 5;
-    left: 100px;
-    top: 250px;
-}
-
-.banner .social-networks
-{
-    position: relative;
-    left: 120px;
-    top: 10px;
-}
-
-
-.banner .social-networks a + a  
-{
-    margin-left: 35px;
-}
-*/
-
-/* ////////// Biography //////////////////   */
-
-/*
-.about-me
-{
-    position: absolute;
-    z-index: 5;
-    left: 480px;
-    top: 650px;
-    padding: 50px ;
-    border: thick double white;
-}
-*/
-
 
 /* ////////////  Panda Card ///////////  */
 
